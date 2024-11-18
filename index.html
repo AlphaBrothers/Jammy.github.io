@@ -1,6 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jammy - 音楽共有アプリ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
+    <!-- ヘッダーナビゲーション -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Jammy Logo" class="logo-image">
+                <span class="logo-text">Jammy</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#features">機能</a>
+                <a href="#contact">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>音楽をシェアして、<br>新しい世界を見つけよう</h1>
+            <p>Jammyで、あなたの音楽体験をもっと豊かに</p>
+            <a href="https://apps.apple.com/your-app-link" class="app-store-button">
+                App Storeでダウンロード
+            </a>
+            <img src="images/app-screenshot.png" alt="アプリのスクリーンショット" class="app-image">
+        </div>
+    </section>
+
+    <!-- 機能紹介 -->
+    <section id="features" class="features">
+        <h2>主な機能</h2>
+        <div class="features-grid">
+            <!-- 音楽シェア機能 -->
+            <div class="feature-card">
+                <div class="feature-icon">🎵</div>
+                <h3>音楽シェア</h3>
+                <p>今聴いている曲を簡単にシェア。あなたの音楽センスを共有しましょう。</p>
+            </div>
+
+            <!-- コミュニティ機能 -->
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <h3>コミュニティ</h3>
+                <p>音楽の趣味が合う仲間と出会い、新しい音楽との出会いを楽しみましょう。</p>
+            </div>
+
+            <!-- プレイリスト機能 -->
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3>プレイリスト</h3>
+                <p>お気に入りの曲をプレイリストにまとめて、仲間とシェアできます。</p>
+            </div>
+        </div>
+    </section>
+    <!-- お問い合わせフォーム -->
+    <section id="contact" class="contact">
+        <h2>お問い合わせ</h2>
+        <div class="contact-container">
+            <!-- ここにGoogleフォームを埋め込み -->
+            <iframe src="YOUR_GOOGLE_FORM_URL" class="contact-form" frameborder="0">
+                読み込んでいます...
+            </iframe>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="images/logo.png" alt="Jammy Logo" class="footer-logo">
+            <p class="copyright">© 2024 Jammy by α Bros. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/privacy">プライバシーポリシー</a>
+                <a href="/terms">利用規約</a>
+                <a href="https://twitter.com/AlphaBros_Jammy">Twitter</a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
